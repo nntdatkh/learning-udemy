@@ -22,20 +22,66 @@ h3 {
     color: #11999E;
 }
 
+hr {
+    border: none;
+    border-bottom: dotted 9px #EAF6F6;
+    width: 5%;
+}
+
 a {
     color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+p {
+    color: #40514E;
 }
 
 .top-container {
-    background-color: #F6D7A7;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
 }
 
 
+.bottom-container {
+    background-color: #66BFBF;
+    line-height: 2;
+    height: 8rem;
+}
+
+.bottom-container p {
+    color: #EAF6F6;
+}
+
+.footer-social {
+    padding-top: 1.5rem;
+
+}
+
+.footer-link {
+    margin: 50px auto;
+    padding: 0 30px;
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.skills {
+    margin: 100px auto;
+}
+
+
 .skill-row {
     width: 50%;
-    margin: 100px auto 200px;
+    margin: 100px auto;
     text-align: left;
     line-height: 2;
     
@@ -65,3 +111,38 @@ a {
     right: 300px;
     top: 50px;
 }
+
+
+.contact-me {
+    margin: 100px auto;
+    line-height: 2;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 8;
+  }
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
