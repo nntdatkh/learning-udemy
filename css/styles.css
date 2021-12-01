@@ -50,18 +50,13 @@ p {
 
 .bottom-container {
     background-color: #66BFBF;
-    line-height: 2;
-    height: 8rem;
+    padding: 50px 0 20px;
 }
 
 .bottom-container p {
     color: #EAF6F6;
 }
 
-.footer-social {
-    padding-top: 1.5rem;
-
-}
 
 .footer-link {
     margin: 50px auto;
